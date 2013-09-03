@@ -1,0 +1,20 @@
+[user]
+	name = Toby Osbourn
+	email = toby.osbourn@examtime.com
+[credential]
+	helper = osxkeychain
+[color]
+  diff = auto
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red
+  new = cyan
+[alias]
+	standup = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --since yesterday --author 'Toby Osbourn' --
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+  c = commit -a
+  s = status
+  a = add -A
+  pl = !sh -c 'git pull origin $1' -
+  ps = !sh -c 'git push origin $1' -
