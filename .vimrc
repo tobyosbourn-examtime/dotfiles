@@ -13,3 +13,4 @@ set backup
 set backupdir=$HOME/.tmp
 set writebackup
 filetype on
+filetype indent plugin on
